@@ -1,4 +1,4 @@
-module.exports = function blap(res, req, next) {
+module.exports = function blap(req, res, next) {
   res.blap = function(state) {
     state = state || {}
     state.path = req.path
